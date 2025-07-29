@@ -13,7 +13,9 @@ const Header = () => {
     { label: 'Leads', path: '/lead-management', icon: 'Users' },
     { label: 'Properties', path: '/property-listings', icon: 'Building2' },
     { label: 'Communications', path: '/communications-hub', icon: 'MessageSquare' },
-    { label: 'Calendar', path: '/calendar-scheduling', icon: 'Calendar' }
+    { label: 'Calendar', path: '/calendar-scheduling', icon: 'Calendar' },
+    { label: 'Transactions', path: '/transaction-management', icon: 'FileText' },
+    { label: 'Offers', path: '/offer-management', icon: 'DollarSign' }
   ];
 
   const notifications = [

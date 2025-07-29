@@ -9,6 +9,8 @@ import CommunicationsHub from "pages/communications-hub";
 import LeadManagement from "pages/lead-management";
 import PropertyListings from "pages/property-listings";
 import CalendarScheduling from "pages/calendar-scheduling";
+import TransactionManagement from "pages/transaction-management";
+import OfferManagement from "pages/offer-management";
 import NotFound from "pages/NotFound";
 
 const Routes = () => {
@@ -25,6 +27,8 @@ const Routes = () => {
         <Route path="/lead-management" element={<LeadManagement />} />
         <Route path="/property-listings" element={<PropertyListings />} />
         <Route path="/calendar-scheduling" element={<CalendarScheduling />} />
+        <Route path="/transaction-management" element={<TransactionManagement />} />
+        <Route path="/offer-management" element={<OfferManagement />} />
         <Route path="*" element={<NotFound />} />
       </RouterRoutes>
       </ErrorBoundary>

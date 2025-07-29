@@ -37,6 +37,18 @@ const Sidebar = () => {
       path: '/calendar-scheduling',
       icon: 'Calendar',
       badge: { count: 3, priority: 'low' }
+    },
+    {
+      label: 'Transaction Management',
+      path: '/transaction-management',
+      icon: 'FileText',
+      badge: { count: 2, priority: 'high' }
+    },
+    {
+      label: 'Offer Management',
+      path: '/offer-management',
+      icon: 'DollarSign',
+      badge: { count: 4, priority: 'medium' }
     }
   ];
 

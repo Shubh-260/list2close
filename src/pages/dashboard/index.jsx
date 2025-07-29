@@ -232,6 +232,20 @@ const Dashboard = () => {
               <div className="flex items-start gap-3">
                 <div className="w-8 h-8 bg-accent rounded-full flex items-center justify-center flex-shrink-0">
                   <Icon name="Bell" size={16} className="text-accent-foreground" />
+            <Link
+              to="/transaction-management"
+              className="flex items-center gap-3 p-3 rounded-md hover:bg-muted transition-colors duration-200 text-card-foreground"
+            >
+              <Icon name="FileText" size={18} className="text-primary" />
+              <span className="text-sm font-medium">Transaction Management</span>
+            </Link>
+            <Link
+              to="/offer-management"
+              className="flex items-center gap-3 p-3 rounded-md hover:bg-muted transition-colors duration-200 text-card-foreground"
+            >
+              <Icon name="DollarSign" size={18} className="text-accent" />
+              <span className="text-sm font-medium">Offer Management</span>
+            </Link>
                 </div>
                 <div className="flex-1 min-w-0">
                   <p className="text-sm font-medium text-card-foreground">
